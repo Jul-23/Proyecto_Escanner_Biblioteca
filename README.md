@@ -1,2 +1,2 @@
 # Proyecto_Escanner_Biblioteca
-Preoyecto de un autentizador de credenciales para prestamos de libros
+Proyecto de un autentizador de credenciales para prestamos de libros
