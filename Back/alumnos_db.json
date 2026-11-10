@@ -1,0 +1,32 @@
+{
+    "202220567": {
+        "nombre": "María López",
+        "libros_prestados": [],
+        "multas": []
+    },
+    "202110345": {
+        "nombre": "Juan Pérez",
+        "libros_prestados": [
+            {
+                "titulo": "Física Universitaria - Sears & Zemansky",
+                "vencimiento": "2026-10-25"
+            }
+        ],
+        "multas": []
+    },
+    "SNVRJL03062509H200": {
+        "nombre": "Julio Ángel Sánchez Vera",
+        "libros_prestados": [],
+        "multas": []
+    },
+    "SNVRJLO3062509H200": {
+        "nombre": "Ciudadano INE",
+        "libros_prestados": [],
+        "multas": []
+    },
+    "2270870": {
+        "nombre": "del Estado de México",
+        "libros_prestados": [],
+        "multas": []
+    }
+}

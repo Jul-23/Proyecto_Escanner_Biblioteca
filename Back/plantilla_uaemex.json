@@ -1,0 +1,42 @@
+{
+  "nombre": "Credencial UAEMéx - Plantilla Legal v1",
+  "relaciones": [
+    {
+      "id": "foto",
+      "box": [0.05, 0.15, 0.30, 0.55],
+      "tipo": "region_foto",
+      "obligatorio": true
+    },
+    {
+      "id": "escudo",
+      "box": [0.72, 0.05, 0.95, 0.25],
+      "tipo": "escudo_universitario",
+      "obligatorio": true
+    },
+    {
+      "id": "texto_nombre",
+      "box": [0.35, 0.20, 0.95, 0.40],
+      "tipo": "bloque_texto",
+      "obligatorio": true
+    },
+    {
+      "id": "matricula",
+      "box": [0.35, 0.45, 0.75, 0.60],
+      "tipo": "bloque_texto",
+      "obligatorio": true
+    },
+    {
+      "id": "qr",
+      "box": [0.78, 0.65, 0.95, 0.92],
+      "tipo": "codigo_qr",
+      "obligatorio": true
+    }
+  ],
+  "restricciones_relativas": [
+    { "regla": "izquierda_de", "a": "foto", "b": "texto_nombre" },
+    { "regla": "arriba_de", "a": "escudo", "b": "qr" },
+    { "regla": "no_solapa", "a": "foto", "b": "qr" }
+  ],
+  "tolerancia_posicion": 0.08
+}
+
